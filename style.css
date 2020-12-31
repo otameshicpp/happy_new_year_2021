@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;900&display=swap');
         body{
             background-color: #1A1A1A;
             font-size: 15px;
@@ -220,12 +220,13 @@
 }
 .model{
     position: relative;
-    width: auto;
-    left: 50%;
+    width: 80%;
+    /* left: 50%; */
     color: white;
-    transform: translate(-50%,0%);
-    border-bottom: medium solid white;
-    margin: 10vh auto 10vh auto;
+    font-size: max(18px, 2em);
+    /* transform: translate(-50%,0%); */
+    border-bottom: thin solid white;
+    margin: 5vh auto 5vh auto;
     z-index: inherit;
 }
 .modelcontainer{
